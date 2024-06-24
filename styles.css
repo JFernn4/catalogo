@@ -19,10 +19,12 @@ header h1 {
     margin: 0;
     font-weight: 400;
   font-style: normal;
-    color: rgb(0, 0, 0);
+    color: rgb(247, 139, 189);
     text-align: center;
 }
-
+main {
+    flex: 1;
+}
 /* Estilos de la sección de productos */
 .products {
     display: flex;
@@ -65,7 +67,7 @@ header h1 {
 }
 
 .product button {
-    background-color: #007bff;
+    background-color: #ff92f0;
     border: none;
     border-radius: 5px;
     color: #ffffff;
@@ -77,16 +79,28 @@ header h1 {
 .product button:hover {
     background-color: #0056b3;
 }
+.add-to-cart-button {
+    display: inline-block;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
 
 /* Estilos del pie de página */
 footer {
-        background-color: #000000;
-        color: white;
-        text-align: center;
-        padding: 1em 0;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
 }
 /* Estilos del botón de Instagram */
 .instagram-button {
